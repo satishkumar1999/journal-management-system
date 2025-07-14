@@ -75,8 +75,7 @@ cd journal-management-system
 ## ⚙️ Configuration
 Set your MongoDB connection and server details in:
 
-
-
+```
 spring:
   data:
     mongodb:
@@ -88,5 +87,5 @@ server:
   port: 8081
   servlet:
     context-path: /journal
-
+```
 
