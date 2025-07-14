@@ -94,7 +94,7 @@ server:
 ## 🙋‍♂️ Author
 
 **Satish Kumar**  
-📧 Email: satishkumar1999@gmail.com  
+📧 Email: raj715255@gmail.com  
 🔗 GitHub: [@satishkumar1999](https://github.com/satishkumar1999)
 
 
