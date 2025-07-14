@@ -28,7 +28,7 @@ A  **Spring Boot + MongoDB** based Journal Management System designed for managi
 
 ## 📁 Project Structure
 
-` src/
+```src/
 ├── main/
 │ ├── java/com/satish/journal/
 │ │ ├── controller/ # API Controllers
@@ -37,5 +37,5 @@ A  **Spring Boot + MongoDB** based Journal Management System designed for managi
 │ │ ├── service/ # Business Logic
 │ │ └── config/ # Security Configuration
 │ └── resources/
-│ ├── application.properties `
+│ ├── application.properties```
 
