@@ -30,12 +30,13 @@ A  **Spring Boot + MongoDB** based Journal Management System designed for managi
 
 ```src/
 ├── main/
-│ ├── java/com/satish/journal/
-│ │ ├── controller/ # API Controllers
-│ │ ├── entity/ # Domain Models
-│ │ ├── repository/ # MongoDB Repositories
-│ │ ├── service/ # Business Logic
-│ │ └── config/ # Security Configuration
-│ └── resources/
-│ ├── application.properties```
+│   ├── java/com/satish/journal/
+│   │   ├── controller/            # API Controllers
+│   │   ├── entity/                # Domain Models
+│   │   ├── repository/            # MongoDB Repositories
+│   │   ├── service/               # Business Logic
+│   │   └── config/                # Security Configuration
+│   └── resources/
+│       └── application.properties
+```
 
