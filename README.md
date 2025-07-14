@@ -1,6 +1,6 @@
 # 📝 Journal Management System
 
-A full-stack **Spring Boot + MongoDB** based Journal Management System designed for managing user journals with role-based authentication.
+A  **Spring Boot + MongoDB** based Journal Management System designed for managing user journals with role-based authentication.
 
 ---
 
@@ -27,4 +27,15 @@ A full-stack **Spring Boot + MongoDB** based Journal Management System designed 
 ---
 
 ## 📁 Project Structure
+
+src/
+├── main/
+│ ├── java/com/satish/journal/
+│ │ ├── controller/ # API Controllers
+│ │ ├── entity/ # Domain Models
+│ │ ├── repository/ # MongoDB Repositories
+│ │ ├── service/ # Business Logic
+│ │ └── config/ # Security Configuration
+│ └── resources/
+│ ├── application.properties
 
