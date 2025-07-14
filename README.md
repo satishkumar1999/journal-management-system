@@ -68,3 +68,25 @@ cd journal-management-system
 # 3. Run with Maven
 ./mvnw spring-boot:run
 
+---
+
+## ⚙️ Configuration
+
+Set your MongoDB connection and server details in:
+
+---
+
+
+```yaml
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://<username>:<password>@cluster0.mu79jw4.mongodb.net/?retryWrites=true&w=majority
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8081
+  servlet:
+    context-path: /journal
+
