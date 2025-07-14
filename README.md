@@ -40,3 +40,31 @@ src/
 │       └── application.properties
 ```
 
+---
+
+
+---
+
+## 🔐 Roles and Permissions
+
+| Path           | Access             |
+|----------------|--------------------|
+| `/user/**`     | Authenticated User |
+| `/admin/**`    | Admin Only         |
+| `/journal/**`  | Authenticated User |
+| All others     | Public             |
+
+---
+
+## ▶️ How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/satishkumar1999/journal-management-system.git
+
+# 2. Go into project folder
+cd journal-management-system
+
+# 3. Run with Maven
+./mvnw spring-boot:run
+
