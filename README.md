@@ -60,7 +60,7 @@ src/
 
 ## ▶️ How to Run
 
-```bash
+
 # 1. Clone the repo
 git clone https://github.com/satishkumar1999/journal-management-system.git
 
